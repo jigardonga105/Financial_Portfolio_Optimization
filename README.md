@@ -52,7 +52,7 @@ The main objective of this project is to develop a machine learning model that:
 ### 🧠 Machine Learning Models
 
 - **Main Model**: LSTM (Long Short-Term Memory)  
-- **Forecasting**: Prophet  
+- **Forecasting**: Prophet, ARIMA  
 - **Automation**: PyCaret  
 - **Feature Selection**: Random Forest  
 - **Validation**: Cross-validation for model selection.  
