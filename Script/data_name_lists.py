@@ -55,24 +55,24 @@ index = {
 }
 
 mutual_funds_names = {
-    '0P00005WL6': 'UTI Nifty 50 Index Fund',
-    'UTINEXT50': 'UTI-Nifty Next 50 Exchange Traded Fund',
-    '0P0000MLHH': 'Axis Bluechip Fund Gr',
-    '0P0000KV39': 'SBI Small Cap Fund Reg Gr',
-    '0P00009J3K': 'HDFC Mid-Cap Opportunities Gr',
-    '0P0001BAB5': 'ICICI Prudential Equity & Debt Fund',
-    '0P0001EI18': 'HDFC Hybrid Eq Dir Gr',
-    '0P0001BA1R': 'Edelweiss Balanced Advantage Fund',
-    '0P00005WEY': 'SBI Equity Hybrid Fund',
-    '0P0000XUXL': 'Axis Banking & PSU Debt Dir Gr',
-    '0P0000XUYZ': 'ICICI Pru Short Term Dir Gr',
-    '0P0000XW8D': 'HDFC Corporate Bond Dir Gr',
-    '0P0000XVER': 'Nippon India Liquid Dir Gr',
-    '0P0000XUYS': 'ICICI Pru Nifty Next 50 Index Dir Gr',
-    '0P0000XW7I': 'HDFC Gold Dir Gr',
-    '0P0000U3OG': 'ICICI Prudential Regular Gold Savings Fund(FOF) Growth',
-    'SETFGOLD': 'SBI Gold ETF',
-    'BSLGOLDETF': 'Aditya Birla Sun Life Gold ETF'
+    '0P00005WL6.BO': 'UTI Nifty 50 Index Fund',
+    'UTINEXT50.BO': 'UTI-Nifty Next 50 Exchange Traded Fund',
+    '0P0000MLHH.BO': 'Axis Bluechip Fund Gr',
+    '0P0000KV39.BO': 'SBI Small Cap Fund Reg Gr',
+    '0P00009J3K.BO': 'HDFC Mid-Cap Opportunities Gr',
+    '0P0001BAB5.BO': 'ICICI Prudential Equity & Debt Fund',
+    '0P0001EI18.BO': 'HDFC Hybrid Eq Dir Gr',
+    '0P0001BA1R.BO': 'Edelweiss Balanced Advantage Fund',
+    '0P00005WEY.BO': 'SBI Equity Hybrid Fund',
+    '0P0000XUXL.BO': 'Axis Banking & PSU Debt Dir Gr',
+    '0P0000XUYZ.BO': 'ICICI Pru Short Term Dir Gr',
+    '0P0000XW8D.BO': 'HDFC Corporate Bond Dir Gr',
+    '0P0000XVER.BO': 'Nippon India Liquid Dir Gr',
+    '0P0000XUYS.BO': 'ICICI Pru Nifty Next 50 Index Dir Gr',
+    '0P0000XW7I.BO': 'HDFC Gold Dir Gr',
+    '0P0000U3OG.BO': 'ICICI Prudential Regular Gold Savings Fund(FOF) Growth',
+    'SETFGOLD.NS': 'SBI Gold ETF',
+    'BSLGOLDETF.NS': 'Aditya Birla Sun Life Gold ETF'
 }
 
 fd_data = {
@@ -89,3 +89,7 @@ fd_data = {
     "Return Rate for Adults (%)": [6.7, 6.6, 6.7, 6.85, 6.8, 6.8, 7.0, 7.25],
     "Return Rate for Senior Citizens (%)": [7.2, 7.1, 7.2, 7.35, 7.3, 7.3, 7.2, 7.75]
 }
+
+index_features = ['High_Low_Change', 'Daily_Range', 'MACD', 'ATR', 'Rolling_Std_Dev']
+mutual_funds_features = ['Percent_Change_In_Price', 'High_Low_Change', 'RSI', 'Daily_Range', 'Close_Low_Ratio', 'MACD', 'ATR', 'Rolling_Std_Dev']
+gold_bond_features = ['Percent_Change_In_Price', 'High_Low_Change', 'RSI', 'MACD', 'ATR', 'Rolling_Std_Dev', 'High_Open_Change']
